@@ -25,9 +25,9 @@ The figures illustrate the main stages of the automatic annotation pipeline.
 <!-- - `output_photos_EN/img_0000/0_left_original_with_boxes.png`
 - `0_right_crops_on_black.png` -->
 
-![Original image with bounding boxes](output_photos_EN/img_0000/0_left_original_with_boxes.png)
+![Original image with bounding boxes](output_photos_EN/img_0000/image_0_image_1057/0_left_original_with_boxes.png)
 
-![Cropped objects on black background](output_photos_EN/img_0000/0_right_crops_on_black.png)
+![Cropped objects on black background](output_photos_EN/img_0000/image_0_image_1057/0_right_crops_on_black.png)
 ---
 
 ### 2. Initial binary mask
