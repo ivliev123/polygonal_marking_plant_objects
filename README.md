@@ -1,10 +1,10 @@
-# Automatic Polygonal Annotation of Plant Objects  
+# Polygonal Marking of Plant Objects  
 ### Visualization of Segmentation Stages
 
 This repository provides **visual examples of image processing stages** used in the article  
 **“Automatic Polygonal Annotation of Plant Objects for Training Datasets in Green Biomass Segmentation Tasks”**.
 
-The goal of this repository is **not to describe the full method**, but to **visually demonstrate how plant objects are segmented and converted into polygonal annotations**.
+<!-- The goal of this repository is **not to describe the full method**, but to **visually demonstrate how plant objects are segmented and converted into polygonal annotations**. -->
 
 ---
 
@@ -22,9 +22,12 @@ The figures illustrate the main stages of the automatic annotation pipeline.
 - Separation of individual plant objects
 
 **Files**
-- `output_photos_EN/img_0000/0_left_original_with_boxes.png`
-- `0_right_crops_on_black.png`
+<!-- - `output_photos_EN/img_0000/0_left_original_with_boxes.png`
+- `0_right_crops_on_black.png` -->
 
+![Original image with bounding boxes](output_photos_EN/img_0000/0_left_original_with_boxes.png)
+
+![Cropped objects on black background](output_photos_EN/img_0000/0_right_crops_on_black.png)
 ---
 
 ### 2. Initial binary mask
