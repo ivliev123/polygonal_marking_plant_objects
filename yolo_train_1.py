@@ -10,7 +10,7 @@ if not os.path.exists(data_yaml):
     exit()
 
 # Загружаем YOLOv11
-model = YOLO('yolo11n-seg.pt')
+model = YOLO('yolo11s-seg.pt')
 
 # Обучаем
 model.train(
@@ -21,7 +21,7 @@ model.train(
     # device='cpu',
     device='0',
     workers=0,    # 🔴 КРИТИЧНО для Windows
-    name = 'yolo11n-seg_200e'
+    name = 'yolo11s-seg_200e'
 )
 
 # # Обучение
