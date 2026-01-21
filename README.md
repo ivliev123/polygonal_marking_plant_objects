@@ -35,7 +35,8 @@ The figures illustrate the main stages of the automatic annotation pipeline.
 - Color-based segmentation in HSV space  
 - Rough extraction of green biomass
 
-**File**
+<!-- **File** -->
+
 <table>
   <tr>
     <td align="center">
@@ -53,10 +54,6 @@ The figures illustrate the main stages of the automatic annotation pipeline.
   </tr>
 </table>
 
-
-![](output_photos_EN/img_0000/image_0_image_1057/crop_01/0_right_crops_on_black.png)
-- `output_photos_EN/img_0000/crop_01/3_1__visualize_mask.png`
-
 ---
 
 ### 3. Restored mask
@@ -64,8 +61,25 @@ The figures illustrate the main stages of the automatic annotation pipeline.
 - Morphological filtering  
 - Noise removal and shape recovery
 
-**File**
-- `3_visualize_restore_mask.png`
+<!-- **File** -->
+<!-- - `3_visualize_restore_mask.png` -->
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="output_photos_EN/img_0000/image_0_image_1057/crop_01/4_1__visualize_restore_mask.png" width="100%" />
+      <br><b>(a)</b>
+    </td>
+    <td align="center">
+      <img src="output_photos_EN/img_0000/image_0_image_1057/crop_01/4_2__visualize_restore_mask.png" width="100%" />
+      <br><b>(b)</b>
+    </td>
+    <td align="center">
+      <img src="output_photos_EN/img_0000/image_0_image_1057/crop_01/4_3__visualize_restore_mask.png" width="100%" />
+      <br><b>(c)</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -74,8 +88,10 @@ The figures illustrate the main stages of the automatic annotation pipeline.
 - Binary masks obtained for different Hue ranges  
 - Used to analyze segmentation stability
 
-**File**
-- `4_visualize_binary_mask_history.png`
+<!-- **File** -->
+<!-- - `4_visualize_binary_mask_history.png` -->
+
+![_](output_photos_EN/img_0000/image_0_image_1057/crop_01/4_visualize_binary_mask_history.png)
 
 ---
 
@@ -86,10 +102,12 @@ The figures illustrate the main stages of the automatic annotation pipeline.
 
 These plots are used to select the optimal mask.
 
-**Files**
+<!-- **Files**
 - `5_visualize_score_progression.png`
-- `5_visualize_area_progression.png`
+- `5_visualize_area_progression.png` -->
 
+![_](output_photos_EN/img_0000/image_0_image_1057/crop_01/5_visualize_area_progression.png)
+![_](output_photos_EN/img_0000/image_0_image_1057/crop_01/5_visualize_score_progression.png)
 ---
 
 ### 6. Contour selection
@@ -97,14 +115,19 @@ These plots are used to select the optimal mask.
 - Contours extracted from all iterations  
 - Final contour chosen before quality degradation
 
-**File**
-- `6_visualize_contour_history.png`
+<!-- **File**
+- `6_visualize_contour_history.png` -->
+
+![_](output_photos_EN/img_0000/image_0_image_1057/crop_01/6_visualize_contour_history.png)
 
 ---
 
 ## Result
 
 The selected contour is approximated by a polygon and used as an **automatic segmentation annotation** for training neural network models.
+
+
+![_](https://huggingface.co/datasets/ivliev123/polygonal_marking_plant_objects/resolve/main/visualizations/image_1057_all_segmentation.jpg)
 
 ---
 
