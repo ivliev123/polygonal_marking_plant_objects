@@ -20,7 +20,7 @@ model.train(
     batch=16,
     # device='cpu',
     device='0',
-    workers=0,    # 🔴 КРИТИЧНО для Windows
+    workers=0,
     name = 'yolo11s-seg_200e'
 )
 
@@ -31,7 +31,7 @@ model.train(
 #     imgsz=640,
 #     batch=4,      # если вдруг OOM → 2
 #     device=0,
-#     workers=0,    # 🔴 КРИТИЧНО для Windows
+#     workers=0,
 #     amp=True
 # )
 
