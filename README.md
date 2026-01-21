@@ -36,6 +36,25 @@ The figures illustrate the main stages of the automatic annotation pipeline.
 - Rough extraction of green biomass
 
 **File**
+<table>
+  <tr>
+    <td align="center">
+      <img src="output_photos_EN/img_0000/image_0_image_1057/crop_01/3_1__visualize_mask.png" width="100%" />
+      <br><b>(a)</b>
+    </td>
+    <td align="center">
+      <img src="output_photos_EN/img_0000/image_0_image_1057/crop_01/3_2__visualize_mask.png" width="100%" />
+      <br><b>(b)</b>
+    </td>
+    <td align="center">
+      <img src="output_photos_EN/img_0000/image_0_image_1057/crop_01/3_3__visualize_mask.png" width="100%" />
+      <br><b>(c)</b>
+    </td>
+  </tr>
+</table>
+
+
+![](output_photos_EN/img_0000/image_0_image_1057/crop_01/0_right_crops_on_black.png)
 - `output_photos_EN/img_0000/crop_01/3_1__visualize_mask.png`
 
 ---
