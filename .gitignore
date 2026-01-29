@@ -5,17 +5,25 @@ yolo11m-seg.pt
 yolo11l-seg.pt
 yolo11x-seg.pt
 
+yolo11n.pt
+yolo26n.pt
+
 runs.zip
 
-runs/segment/yolov11n-seg_200e/weights/
-runs/segment/yolov11s-seg_200e/weights/
-runs/segment/yolov11m-seg_200e/weights/
-runs/segment/yolov11l-seg_200e/weights/
-runs/segment/yolov11x-seg_200e/weights/
+runs/segment/yolov11n-seg_300e/weights/
+runs/segment/yolov11s-seg_300e/weights/
+runs/segment/yolov11m-seg_300e/weights/
+runs/segment/yolov11l-seg_300e/weights/
+runs/segment/yolov11x-seg_300e/weights/
 
 
-edge_venv
-venv
+runs/detect/
+runs/segment_1/
+runs/segment.zip
+
+history.txt
+
+myenv/
 
 dataset_range_output
 for_report
@@ -24,6 +32,7 @@ single_image_output
 test_images
 train_images
 train_images_edit
+train_images_edit_2
 
 yolo_segmentation_dataset
 yolo_segmentation_dataset_2
