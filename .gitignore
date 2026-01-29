@@ -18,6 +18,7 @@ runs/segment/yolov11x-seg_300e/weights/
 
 
 runs/detect/
+runs/segment/
 runs/segment_1/
 runs/segment.zip
 

@@ -10,31 +10,18 @@ if not os.path.exists(data_yaml):
     exit()
 
 # Загружаем YOLOv11
-model = YOLO('yolo11s-seg.pt')
+model = YOLO('yolo11n-seg.pt')
 
 # Обучаем
 model.train(
     data=data_yaml,
-    epochs=200,
+    epochs=300,
     imgsz=640,
-    batch=16,
+    batch=32,
     # device='cpu',
     device='0',
-    workers=0,
-    name = 'yolo11s-seg_200e'
+    # workers=0,
+    name = 'yolo11n-seg_300e'
 )
-
-# # Обучение
-# model.train(
-#     data="coco8.yaml",
-#     epochs=50,
-#     imgsz=640,
-#     batch=4,      # если вдруг OOM → 2
-#     device=0,
-#     workers=0,
-#     amp=True
-# )
-
-# device='0' # для видеокарты
 
 print("Обучение завершено")
