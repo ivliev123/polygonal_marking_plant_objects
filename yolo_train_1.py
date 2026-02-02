@@ -10,18 +10,18 @@ if not os.path.exists(data_yaml):
     exit()
 
 # Загружаем YOLOv11
-model = YOLO('yolo11n-seg.pt')
+model = YOLO('yolo11l-seg.pt')
 
 # Обучаем
 model.train(
     data=data_yaml,
     epochs=300,
     imgsz=640,
-    batch=32,
+    batch=8,
     # device='cpu',
     device='0',
     # workers=0,
-    name = 'yolo11n-seg_300e'
+    name = 'yolo11l-seg_300e'
 )
 
 print("Обучение завершено")

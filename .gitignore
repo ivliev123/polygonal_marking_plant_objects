@@ -4,9 +4,10 @@ yolo11s-seg.pt
 yolo11m-seg.pt
 yolo11l-seg.pt
 yolo11x-seg.pt
-
 yolo11n.pt
 yolo26n.pt
+
+*.pt
 
 runs.zip
 
@@ -18,7 +19,7 @@ runs/segment/yolov11x-seg_300e/weights/
 
 
 runs/detect/
-runs/segment/
+# runs/segment/
 runs/segment_1/
 runs/segment.zip
 
